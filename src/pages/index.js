@@ -1,27 +1,29 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Header from "../components/Header";
+import Layout from "../components/common/layout/layout"
+import SEO from "../components/common/layout/seo"
+import Navigation from "../components/common/navigation/navigation"
+
+import Header from "../components/sections/header"
+import Features from "../components/sections/features"
+import Footer from "../components/sections/footer"
+import GetStarted from "../components/sections/getstarted"
 
 const IndexPage = () => (
-  <>
+  <Layout>
+    <SEO title="Home" />
+    <Navigation />
     <Header />
-    <p>You simply must try this magnificent ugly journal app!</p>
-    <p>
-      Its an example to show how to use{" "}
-      <a href="https://userbase.com/">Userbase</a> with{" "}
-      <a href="https://www.gatsbyjs.org/">Gatsby JS</a>.
-    </p>
-    <p>
-      Created by <a href="https://twitter.com/raae">@raae</a> for Gatsby Virtual
-      Days 2020.
-    </p>
-    <hr />
+    <Features />
+    <GetStarted />
     <p>
       <Link to="/app/login">Log In</Link> /{" "}
       <Link to="/app/signup">Sign Up</Link>
     </p>
-  </>
+    <Footer />
+
+    </Layout>
 );
 
 export default IndexPage;
