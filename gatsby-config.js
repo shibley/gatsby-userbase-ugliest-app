@@ -9,8 +9,8 @@ require("dotenv").config({
 
 module.exports = {
     siteMetadata: {
-        title: `Gatsby Starter SaaS Marketing`,
-        description: `A simple one page marketing starter for saas companies.`,
+        title: `PostNote.blog`,
+        description: `Turn your notes into blog posts.`,
         author: `Shibley Burnett`,
       },
       plugins: [
