@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Layout from "../components/common/layout/layout"
-import SEO from "../components/common/layout/seo"
-import Navigation from "../components/common/navigation/navigation"
+import Layout from "../components/common/Layout/Layout"
+import SEO from "../components/common/Layout/seo"
+import Navigation from "../components/common/Navigation/Navigation"
 
 import Header from "../components/sections/header"
 import Features from "../components/sections/features"
