@@ -36,10 +36,23 @@ const Header = () => {
             <h2>
               Turn a OneNote™ notebook into a beautiful blog or web site.
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
-            </HeaderForm>
+            <HeaderForm
+              name="early-access"
+              method="post"
+              data-netlify-honeypot="bot-field"
+              data-netlify="true"
+              >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="early-access" />
+                <HeaderInput
+                type="email"
+                placeholder="Your email"
+                name="email"
+                id="email"
+                required
+                />
+                <HeaderButton>Early access</HeaderButton>
+              </HeaderForm>
             <FormSubtitle>
               Already have a beta account?{" "}
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
