@@ -19,8 +19,6 @@ class UncontrolledLottie extends Component {
 
     return(
       <div>
-        <h1>Lottie</h1>
-        <p>Base animation free from external manipulation</p>
         <Lottie options={defaultOptions}
               height={400}
               width={400}
