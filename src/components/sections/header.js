@@ -5,6 +5,8 @@ import Img from "gatsby-image"
 
 import { Container } from "../global"
 
+import UncontrolledLottie from "../common/Layout/UncontrolledLottie"
+
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -58,10 +60,11 @@ const Header = () => {
               <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>
-          <ImageWrapper>
+          <UncontrolledLottie />
+          {/* <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
             <br />
-          </ImageWrapper>
+          </ImageWrapper> */}
         </Flex>
       </Container>
     </HeaderWrapper>
