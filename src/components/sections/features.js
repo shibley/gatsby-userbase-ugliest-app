@@ -7,31 +7,12 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
-      <FeaturesGrid>
+      <SectionTitle>Create a blog in 10 minutes</SectionTitle>
+      {/* <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Notifications</FeatureTitle>
           <FeatureText>
             Receive budget and spending alerts based on your favorite triggers.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
-          <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
-          <FeatureText>
-            Create smart automated workflows and triggers for your money.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
-          <FeatureText>
-            Easily link up to 5 banks to your finance account.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
@@ -44,7 +25,7 @@ const Features = () => (
             High interest and rewards for hitting your goals.
           </FeatureText>
         </FeatureItem>
-      </FeaturesGrid>
+      </FeaturesGrid> */}
     </StyledContainer>
   </Section>
 )
