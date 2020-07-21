@@ -17,10 +17,10 @@ const IndexPage = () => (
     <Header />
     <Features />
     <GetStarted />
-    <p>
+    {/* <p>
       <Link to="/app/login">Log In</Link> /{" "}
       <Link to="/app/signup">Sign Up</Link>
-    </p>
+    </p> */}
     <Footer />
 
     </Layout>
