@@ -8,24 +8,27 @@ const Features = () => (
     <StyledContainer>
       <Subtitle>Features</Subtitle>
       <SectionTitle>Create a blog in 10 minutes</SectionTitle>
-      {/* <FeaturesGrid>
+       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Easy User Interface</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            PostNote uses an easy to use interface which gives you control 
+            over the design of your articles.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
+          <FeatureTitle>Monetize Without Ads</FeatureTitle>
+          <FeatureText>We will never display ads on this platform, 
+            even on the free plan. No ads period.
+          </FeatureText>
         </FeatureItem>
-        <FeatureItem>
+        {/* <FeatureItem>
           <FeatureTitle>Rewards</FeatureTitle>
           <FeatureText>
             High interest and rewards for hitting your goals.
           </FeatureText>
-        </FeatureItem>
-      </FeaturesGrid> */}
+        </FeatureItem> */}
+      </FeaturesGrid> 
     </StyledContainer>
   </Section>
 )
